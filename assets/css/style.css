@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: rgba(68, 88, 119, 1);
+  --secondary-color: rgba(146, 204, 206, 1);
+  --tertiary-color: rgba(49, 52, 61, 1);
+}
+body {
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+header {
+  padding: 20px 35px;
+  background-color: rgba(49, 52, 61, 1);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
+  align-items: center;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 3vw;
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+  margin: 0;
+}
+
+header a {
+  margin: 10px 15px;
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header nav ul li a {
+  font-weight: normal;
+  font-size: 2vw;
+  border-bottom: 3px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-shadow: none;
+}
+
+.hero-banner {
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background-attachment: fixed;
+  background-position: 80%;
+  min-height: 40vh;
+}
+.hero-banner h2 {
+  font-size: 3vw;
+  margin: 0 25px 25px 0;
+  color: var(--tertiary-color);
+  background-color: var(--secondary-color);
+}
+.page-content {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 30px 35px;
+}
+.page-content h2 {
+  color: var(--primary-color);
+  font-size: 3vw;
+  flex: 1 20%;
+  text-align: right;
+  border-right: 3px solid;
+  padding-right: 15px;
+}
+.page-content div {
+  flex: 12 80%;
+}
+.page-content p {
+  padding-bottom: 20px;
+  margin: 10px 15px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px 35px;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+footer h2 {
+  color: var(--primary-color);
+  font-size: 3vw;
+  margin: 0;
+  border-right: 3px solid;
+  flex: 1 20%;
+  text-align: right;
+  padding-right: 15px;
+}
+footer div {
+  line-height: 1.5;
+  text-align: right;
+  flex: 12 80%;
+}
+footer a {
+  border-bottom: 3px solid #008080;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+footer ul li a {
+  margin: 10px 15px;
+  font-weight: normal;
+  font-size: 1.5vw;
+}
+footer ul li a:hover {
+  background: #008080;
+  text-shadow: none;
+}

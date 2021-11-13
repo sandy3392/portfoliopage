@@ -236,6 +236,9 @@ footer ul li a:hover {
     width: 100%;
     margin-bottom: 20px;
   }
+  .page-content h2 br {
+    display: none;
+  }
   .page-content > div {
     flex-basis: 100%;
   }
@@ -255,6 +258,9 @@ footer ul li a:hover {
     flex-basis: 100%;
     padding: 10px;
     margin: 10px 15px;
+  }
+  footer h2 br {
+    display: none;
   }
   footer div {
     flex: 0 0 100%;

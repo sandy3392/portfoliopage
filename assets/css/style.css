@@ -32,6 +32,7 @@ header h1 {
   color: var(--tertiary-color);
   background-color: var(--secondary-color);
   margin: 0;
+  border-radius: 5px;
 }
 
 header a {

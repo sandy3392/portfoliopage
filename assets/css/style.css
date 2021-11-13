@@ -76,6 +76,7 @@ header nav ul li a:hover {
   margin: 0 25px 25px 0;
   color: var(--tertiary-color);
   background-color: var(--secondary-color);
+  border-radius: 5px;
 }
 .page-content-wrapper {
   max-width: 90%;
